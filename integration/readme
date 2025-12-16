@@ -1,0 +1,5 @@
+
+sudo docker build -t router-img . && sudo docker run -it --rm \
+    --net neighbor-net --ip 192.168.100.10 --name main \router-img
+
+
