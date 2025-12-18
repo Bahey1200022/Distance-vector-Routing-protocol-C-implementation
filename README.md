@@ -1,7 +1,7 @@
 
 Distance Vector Routing Protocol (C)
 
-This project implements a Distance Vector (DV) routing protocol in C, using UDP sockets and two concurrent threads:
+This project implements a Distance Vector (DV) routing protocol in C, using TCP sockets and two concurrent threads:
 
 Receiver Thread: handles incoming HELLO and DV messages
 
